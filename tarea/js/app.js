@@ -2,7 +2,7 @@ async function mostrarPosts() {
     const lista = document.querySelector("#posts");
 
     try {
-        // 1. Traer las publicaciones del usuario 1
+        // 1. Traer error las publicaciones del usuario 1
         const res = await fetch(
           "https://jsonplaceholder.typicode.com/posts?userId=1"
             
